@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timetable</title>
+    <style>
+        body {
+            background-color: rgb(10, 15, 20);
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border: 3px solid black;
+            border-radius: 25px;
+            border-collapse: separate;
+            overflow: hidden;
+            margin: auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: rgb(60, 60, 90);
+            color: rgb(200, 215, 235)
+        }
+
+        tr:nth-child(odd) td {
+            background-color: rgb(40, 44, 52);
+        }
+
+        tr:nth-child(even) td {
+            background-color: rgb(55, 60, 68);
+        }
+
+        /* Optional: make the whole table have smooth edges visually */
+        td:first-child {
+            border-left: none;
+        }
+
+        td:last-child {
+            border-right: none;
+        }
+
+        tr:first-child th:first-child {
+            border-top-left-radius: 25px;
+        }
+
+        tr:first-child th:last-child {
+            border-top-right-radius: 25px;
+        }
+
+        tr:last-child td:first-child {
+            border-bottom-left-radius: 25px;
+        }
+
+        tr:last-child td:last-child {
+            border-bottom-right-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center" style="color: rgb(230, 230, 230); margin-top: 190px; font-size: 50px;">Class Timetable</h1>
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th>Day</th>
+            <th>Period 1</th>
+            <th>Period 2</th>
+            <th>Period 3</th>
+            <th>Period 4</th>
+            <th></th>
+            <th>Period 5</th>
+            <th>Period 6</th>
+            <th>Period 7</th>
+            <th>Period 8</th>
+        </tr>
+        <tr style="color: white;">
+            <td>Monday</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>History</td>
+            <th>L B</th>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr style="color: white;">
+            <td>Tuesday</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>History</td>
+            <th>U  R</th>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr style="color: white;">
+            <td>Wednesday</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>History</td>
+            <th>N E</th>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr style="color: white;">
+            <td>Thursday</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>History</td>
+            <th>C A</th>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>
+        </tr>
+        <tr style="color: white;">
+            <td>Friday</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>History</td>
+            <th>H K</th>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>  
+        </tr>
+        <tr style="color: white;">
+            <td>Saturday</td>
+            <td>Science</td>
+            <td>Maths</td>
+            <td>English</td>
+            <td>History</td>
+            <th></th>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>Computer Science</td>
+        </tr>
+    </table>
+</body>
+</html>
